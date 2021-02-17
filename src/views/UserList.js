@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import R from 'ramda';
 import PropTypes from 'prop-types';
 import UserItem from './UserItem';
 import { loadUserPage } from '../actions';

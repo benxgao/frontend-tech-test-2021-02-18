@@ -1,4 +1,4 @@
-import R from 'ramda';
+import {merge} from 'ramda';
 import { combineReducers } from 'redux';
 import { GET_ALL_USERS, RECEIVE_USERS } from '../actions';
 
@@ -8,7 +8,7 @@ function users(state = {}, action) {
       return state;
 
     case RECEIVE_USERS:
-      return R.merge(state, action.payload);
+      return merge(state, action.payload);
 
     default:
       return state;
