@@ -2,7 +2,17 @@
   "name": "boil-react-saga-plate",
   "version": "0.1.0",
   "description": "Minimum Viable Template of React.js application with redux-saga",
-  "keywords": ["boilerplate", "template", "simple", "basic", "tiny", "react", "redux", "saga", "javascript"],
+  "keywords": [
+    "boilerplate",
+    "template",
+    "simple",
+    "basic",
+    "tiny",
+    "react",
+    "redux",
+    "saga",
+    "javascript"
+  ],
   "author": "Xingbin Gao <xingbingao@gmail.com> (github.com/benxgao/)",
   "license": "MIT",
   "scripts": {

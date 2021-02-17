@@ -1,20 +1,12 @@
 {
   "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "node": "current"
-        }
-      }
-    ],
+    "@babel/preset-env",
     "@babel/preset-react"
   ],
   "plugins": [
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-proposal-object-rest-spread",
     "babel-plugin-styled-components",
-    "polished",
     [
       "transform-class-properties",
       {
@@ -37,40 +29,5 @@
         }
       }
     ]
-  ],
-  "env": {
-    "production": {
-      "plugins": [
-        [
-          "ramda",
-          {
-            "useES": true
-          }
-        ]
-      ]
-    },
-    "development": {
-      "plugins": [
-        "react-hot-loader/babel",
-        [
-          "ramda",
-          {
-            "useES": true
-          }
-        ]
-      ]
-    },
-    "test": {
-      "presets": [
-        [
-          "env",
-          {
-            "targets": {
-              "node": "current"
-            }
-          }
-        ]
-      ]
-    }
-  }
+  ]
 }
