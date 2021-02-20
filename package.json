@@ -1,18 +1,8 @@
 {
-  "name": "boil-react-saga-plate",
+  "name": "frontend-tech-test-westpac-nz",
   "version": "0.1.0",
-  "description": "Minimum Viable Template of React.js application with redux-saga",
-  "keywords": [
-    "boilerplate",
-    "template",
-    "simple",
-    "basic",
-    "tiny",
-    "react",
-    "redux",
-    "saga",
-    "javascript"
-  ],
+  "description": "Frontend tech skill test - Westpac NZ",
+  "keywords": [],
   "author": "Xingbin Gao <xingbingao@gmail.com> (github.com/benxgao/)",
   "license": "MIT",
   "scripts": {
@@ -70,8 +60,8 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "fibers": "^5.0.0",
     "file-loader": "^6.2.0",
-    "html-loader": "^1.3.2",
-    "html-webpack-plugin": "^4.5.0",
+    "html-loader": "^2.1.0",
+    "html-webpack-plugin": "^5.2.0",
     "jest": "^26.4.2",
     "jest-cli": "^26.6.3",
     "node-sass": "^5.0.0",

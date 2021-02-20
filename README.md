@@ -28,7 +28,7 @@ It may not contain day-to-day work best practice, but potentially it could:
 
 ## Coding plan
 
-- [ ] Get React web application up and running in dev environment;
+- [x] Get React web application up and running in dev environment;
 - [ ] Get mock API server up and running;
 - [ ] Get the web app consume mocked API responses via Redux side efforts (Redux-saga.js applied);
 - [ ] Get web components consume data from Redux states, and get data display in web pages;
