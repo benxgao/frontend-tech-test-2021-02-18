@@ -23,7 +23,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './index.html'
+      template: 'index.html'
     }),
     // new ExtractTextPlugin("style.css"),
   ],
