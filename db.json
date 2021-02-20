@@ -1,0 +1,28 @@
+{
+   "posts":[
+      {
+         "_id":1,
+         "title":"xxx",
+         "content":"xxxxxxxx",
+         "createdBy":{
+            "user_id":1,
+            "name":"xxx",
+            "avatar":"https://xxx"
+         },
+         "createdAt":"xxx",
+         "updatedAt":"xxx",
+         "comments":[
+            {
+               "_id":1,
+               "createdBy":{
+                  "user_id":1,
+                  "name":"xxx",
+                  "avatar":"https://xxx"
+               },
+               "createdAt":"xxx",
+               "content":"xxxxxxx"
+            }
+         ]
+      }
+   ]
+}

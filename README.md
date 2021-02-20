@@ -7,7 +7,7 @@ Author: Xingbin Gao
 - Test is started at 10:45am 2021-02-18;
 - Test is paused at 12:15pm 2021-02-18;
 - Test is restarted at 10:05am 2021-02-21;
-- Test is completed at 2021-02-18;
+- Test is completed at 11:05am 2021-02-18;
 - Total time spent on the test: hours;
 
 ## Notes
