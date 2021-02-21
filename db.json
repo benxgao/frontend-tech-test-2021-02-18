@@ -1,50 +1,50 @@
 {
    "posts":[
       {
-         "_id":1,
-         "title":"xxx",
-         "content":"xxxxxxxx",
+         "id":"1",
+         "title":"post title 1",
+         "content":"post conent 1",
          "createdBy":{
-            "_id":1,
-            "name":"xxx",
+            "id":"1",
+            "name":"post creator",
             "avatar":"https://xxx"
          },
          "createdAt":"xxx",
          "updatedAt":"xxx",
          "comments":[
             {
-               "_id":1,
+               "id":"1",
                "createdBy":{
-                  "user_id":1,
-                  "name":"xxx",
+                  "userid":1,
+                  "name":"comment creator",
                   "avatar":"https://xxx"
                },
                "createdAt":"xxx",
-               "content":"xxxxxxx"
+               "content":"comment content 1"
             }
          ]
       },
       {
-         "_id":2,
-         "title":"xxx",
-         "content":"xxxxxxxx",
+         "id":"2",
+         "title":"post title 2",
+         "content":"post content 2",
          "createdBy":{
-            "_id":1,
-            "name":"xxx",
+            "id":"1",
+            "name":"post creator",
             "avatar":"https://xxx"
          },
          "createdAt":"xxx",
          "updatedAt":"xxx",
          "comments":[
             {
-               "_id":2,
+               "id":"2",
                "createdBy":{
-                  "_id":2,
-                  "name":"xxx",
+                  "id":"2",
+                  "name":"comment creator",
                   "avatar":"https://xxx"
                },
                "createdAt":"xxx",
-               "content":"xxxxxxx"
+               "content":"comment content"
             }
          ]
       }

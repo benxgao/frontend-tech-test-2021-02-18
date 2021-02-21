@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import PostItem from './PostItem';
 import { loadPostPage } from '../../actions';
 import { connect } from 'react-redux';
@@ -17,10 +18,10 @@ class PostList extends Component {
         {posts && posts.length > 0 && posts.map(post => {
           console.log('Post', post);
           return (
-            <PostItem key={post.id} {...{post}} />
+            <PostItem key={uuidv4()} {...{post}} />
           );
         })}
-        {(!posts || posts.length > 0) && 'There is no post created yet'}
+        {(!posts || posts.length < 1) && 'There is no post created yet'}
       </div>
     )
   }

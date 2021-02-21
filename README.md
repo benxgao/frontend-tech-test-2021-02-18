@@ -31,7 +31,7 @@ It may not contain day-to-day work best practice, but potentially it could:
 
 - [x] Get React web application up and running in dev environment;
 - [ ] Get mock API server up and running;
-- [ ] Get the web app consume mocked API responses via Redux side efforts (Redux-saga.js applied);
-- [ ] Get web components consume data from Redux states, and get data display in web pages;
+- [x] Get the web app consume mocked API responses via Redux side efforts (Redux-saga.js applied);
+- [x] Get web components consume data from Redux states, and get data display in web pages;
 - [ ] Leave notes and potential further solution for future development;
 - [ ] Invit code reviewers and complete test;
