@@ -16,8 +16,7 @@ export function* watchGetUsers() {
 
 export function* getPosts() {
   const postList = yield call(postApi.getAllPosts);
-
-  yield put({ type: RECEIVE_POSTS, payload: postList });
+  yield put({ type: RECEIVE_POSTS, payload: {posts: postList} });
 };
 
 export function* watchGetPosts() {

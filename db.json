@@ -5,7 +5,7 @@
          "title":"xxx",
          "content":"xxxxxxxx",
          "createdBy":{
-            "user_id":1,
+            "_id":1,
             "name":"xxx",
             "avatar":"https://xxx"
          },
@@ -16,6 +16,30 @@
                "_id":1,
                "createdBy":{
                   "user_id":1,
+                  "name":"xxx",
+                  "avatar":"https://xxx"
+               },
+               "createdAt":"xxx",
+               "content":"xxxxxxx"
+            }
+         ]
+      },
+      {
+         "_id":2,
+         "title":"xxx",
+         "content":"xxxxxxxx",
+         "createdBy":{
+            "_id":1,
+            "name":"xxx",
+            "avatar":"https://xxx"
+         },
+         "createdAt":"xxx",
+         "updatedAt":"xxx",
+         "comments":[
+            {
+               "_id":2,
+               "createdBy":{
+                  "_id":2,
                   "name":"xxx",
                   "avatar":"https://xxx"
                },
