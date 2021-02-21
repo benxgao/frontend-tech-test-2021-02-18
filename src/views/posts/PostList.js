@@ -11,12 +11,10 @@ class PostList extends Component {
 
   render() {
     const { posts } = this.props;
-    console.log('Posts', Array.isArray(posts));
     return (
       <div>
         <h3>Posts</h3>
         {posts && posts.length > 0 && posts.map(post => {
-          console.log('Post', post);
           return (
             <PostItem key={uuidv4()} {...{post}} />
           );

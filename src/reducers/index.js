@@ -21,7 +21,6 @@ function posts(state = [], action) {
       return state;
 
     case RECEIVE_POSTS:
-      console.log('payload', action.payload);
       return action.payload.posts;
 
     default:

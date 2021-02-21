@@ -18,7 +18,6 @@ const CommentBox = styled.div`
 export default class PostItem extends Component {
   render() {
     const { post } = this.props;
-    console.log('post', post);
 
     return (
       <PostCard>

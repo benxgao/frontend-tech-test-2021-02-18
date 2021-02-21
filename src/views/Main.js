@@ -6,7 +6,6 @@ const Main = ({}) => (
   <>
     <h1>Frontend tech test - Westpac NZ</h1>
     <PostList />
-    {/* <UserList /> */}
   </>
 );
 
