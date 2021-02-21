@@ -9,7 +9,8 @@ Author: Xingbin Gao
 - Test is restarted at 10:05am 2021-02-21;
 - Test is paused at 11:05am 2021-02-18;
 - Test is restarted at 14:40pm 2021-02-18;
-- Total time spent on the test: hours;
+- Test is completed at 15:55pm 2021-02-21;
+- Total time spent on the test: ~4.5hours;
 
 ## Notes
 
@@ -30,8 +31,8 @@ It may not contain day-to-day work best practice, but potentially it could:
 ## Coding plan
 
 - [x] Get React web application up and running in dev environment;
-- [ ] Get mock API server up and running;
+- [ ] ~~Get mock API server up and running;~~
 - [x] Get the web app consume mocked API responses via Redux side efforts (Redux-saga.js applied);
 - [x] Get web components consume data from Redux states, and get data display in web pages;
-- [ ] Leave notes and potential further solution for future development;
-- [ ] Invit code reviewers and complete test;
+- [x] Leave notes and potential further solution for future development;
+- [x] Invit code reviewers and complete test;
