@@ -1,5 +1,4 @@
 import React from 'react';
-import UserList from './UserList';
 import PostList from './posts/PostList';
 
 const Main = ({}) => (
